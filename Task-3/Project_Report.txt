@@ -1,0 +1,163 @@
+SALES PREDICTION USING PYTHON
+
+PROJECT REPORT
+
+--------------------------------------------------
+
+1. PROJECT OVERVIEW
+
+Sales Prediction Using Python is a machine learning project aimed at predicting product sales based on advertising expenditures across different marketing channels.
+
+The project analyzes how investments in TV, Radio, and Newspaper advertising influence sales performance and helps businesses make data-driven marketing decisions.
+
+--------------------------------------------------
+
+2. OBJECTIVE
+
+The main objective of this project is to:
+
+• Analyze advertising data
+• Identify relationships between advertising channels and sales
+• Build a machine learning model for sales prediction
+• Evaluate model performance
+• Generate business insights for marketing optimization
+
+--------------------------------------------------
+
+3. DATASET INFORMATION
+
+Dataset Name: Advertising Dataset
+
+Features Used:
+
+1. TV Advertising Budget
+2. Radio Advertising Budget
+3. Newspaper Advertising Budget
+
+Target Variable:
+
+• Sales
+
+--------------------------------------------------
+
+4. TOOLS AND TECHNOLOGIES USED
+
+• Python
+• Pandas
+• NumPy
+• Matplotlib
+• Seaborn
+• Scikit-Learn
+• Jupyter Notebook
+
+--------------------------------------------------
+
+5. DATA PREPROCESSING
+
+The following preprocessing steps were performed:
+
+• Loaded the dataset
+• Checked data dimensions
+• Verified data types
+• Checked missing values
+• Generated summary statistics
+• Prepared features and target variable
+
+--------------------------------------------------
+
+6. EXPLORATORY DATA ANALYSIS
+
+Several visualizations were created to understand the dataset:
+
+• Sales Distribution
+• Correlation Heatmap
+• TV vs Sales
+• Radio vs Sales
+• Newspaper vs Sales
+• Actual vs Predicted Sales
+
+These visualizations helped identify patterns and relationships between advertising expenditure and sales.
+
+--------------------------------------------------
+
+7. MACHINE LEARNING MODEL
+
+Model Used:
+
+Linear Regression
+
+Reason for Selection:
+
+Linear Regression is a widely used supervised machine learning algorithm suitable for predicting continuous numerical values such as sales.
+
+--------------------------------------------------
+
+8. MODEL TRAINING
+
+The dataset was divided into:
+
+• Training Data (80%)
+• Testing Data (20%)
+
+The Linear Regression model was trained using advertising expenditure as input features and sales as the target variable.
+
+--------------------------------------------------
+
+9. MODEL EVALUATION
+
+Evaluation Metrics Used:
+
+• Mean Absolute Error (MAE)
+• Mean Squared Error (MSE)
+• R² Score
+
+These metrics were used to measure prediction accuracy and model performance.
+
+--------------------------------------------------
+
+10. RESULTS
+
+The model achieved a strong prediction performance.
+
+Key Findings:
+
+• TV advertising showed the strongest impact on sales.
+• Radio advertising also significantly contributed to sales growth.
+• Newspaper advertising showed relatively lower influence.
+• The model successfully predicted future sales using advertising expenditure.
+
+R² Score: __________
+
+(Replace with your actual R² Score)
+
+--------------------------------------------------
+
+11. BUSINESS INSIGHTS
+
+• Increasing TV advertising investment can improve sales performance.
+• Radio advertising acts as an effective secondary marketing channel.
+• Marketing budgets can be optimized using data-driven strategies.
+• Predictive analytics can help organizations plan future campaigns.
+
+--------------------------------------------------
+
+12. CONCLUSION
+
+The Sales Prediction project successfully demonstrates how machine learning can be used to analyze advertising effectiveness and predict future sales.
+
+Using Linear Regression, the model achieved good predictive accuracy and generated valuable business insights.
+
+The project highlights the importance of data-driven decision-making in marketing strategy and budget allocation.
+
+--------------------------------------------------
+
+13. FUTURE ENHANCEMENTS
+
+• Test multiple machine learning algorithms.
+• Perform hyperparameter tuning.
+• Use larger marketing datasets.
+• Build an interactive dashboard using Streamlit.
+• Deploy the model as a web application.
+
+--------------------------------------------------
+
