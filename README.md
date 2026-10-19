@@ -1,4 +1,4 @@
-# CodeAlpha Data Science Internship Projects
+# Data Science Projects
 
 ## Overview
 
@@ -8,7 +8,7 @@ The projects demonstrate practical applications of Data Science, Data Analysis, 
 
 ---
 
-## Internship Tasks Completed
+## Project Tasks Completed
 
 ### Task 1: Iris Flower Classification
 
